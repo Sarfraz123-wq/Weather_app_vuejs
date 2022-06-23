@@ -31,7 +31,7 @@ export default {
   name: 'app',
   data () {
     return {
-      api_key: '369ab05cc85fcacc23fa1000c5a7f6bb',
+      api_key: '',
       url_base: 'https://api.openweathermap.org/data/2.5/weather?q=',
       query: '',
       weather: {}
@@ -78,15 +78,11 @@ body {
 }
 
 #app {
-  /* background-image: url('./assets/cold-bg.jpg'); */
   background-size: cover;
   background-position: bottom;
   transition: 0.4s;
 }
 
-#app.warm {
-  /* background-image: url('./assets/warm-bg.jpg'); */
-}
 
 main {
   min-height: 100vh;
